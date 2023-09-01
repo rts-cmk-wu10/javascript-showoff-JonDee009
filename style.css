@@ -3,3 +3,45 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+}
+
+.movieGenres{
+    
+    border-radius: 10%;
+    width: fit-content;
+    padding: 5px;
+    background: rgb(230, 225, 225);
+}
+
+.movieResults{
+    margin: 0;
+}
+
+.movieActors{
+    display: flex;
+    align-items: center;
+
+}
+
+img{
+    width: 250px;
+    height: 400px;
+}
+
+.boxHeader{
+    display: flex;
+    flex-direction: column;
+}
+
+.featureList{
+    display: flex;
+    flex-direction: row;
+    
+}
